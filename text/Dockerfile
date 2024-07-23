@@ -11,4 +11,3 @@ EXPOSE 8080
 COPY . .
 # Command to run PHP server
 CMD [ "php", "-S", "0.0.0.0:8080" ]
-
